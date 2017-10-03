@@ -17,4 +17,6 @@ The 'toilets' dataset left me without any ideas. The only dataset remaining was 
 
 ### Deciding on visualisation
 
-To explore visualisation possibilities, I went to the [d3 gallery](https://github.com/d3/d3/wiki/Gallery). I knew that having 100 years worth of data would take more than just a bar chart.
+To explore visualisation possibilities, I went to the [d3 gallery](https://github.com/d3/d3/wiki/Gallery).
+
+At first I wanted to go with the [Multi-Series Line Chart](https://bl.ocks.org/mbostock/3884955) in order to visualise the data in three different lines - daily, monthly and annually. Unfortunately, after many hours of pure frustration and inability I had to resort back to the normal [Line Chart](https://bl.ocks.org/mbostock/3884955). 
