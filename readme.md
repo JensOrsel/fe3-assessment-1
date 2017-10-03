@@ -27,5 +27,20 @@ At first I wanted to go with the [Multi-Series Line Chart](https://bl.ocks.org/m
 
 My idea, to make the line chart at least a *little* bit different was to create a toggle button, to change the view from 1901 - 1939, 1940 - 1979 and 1980 - 2017. Once again, many hours of frustration and inability went into this. I've spent a lot of time looking into which features are needed to manipulate the data in this way and it simply did not work. I ended up simply having to improve the way it looks, instead of the way it works, very sadly.
 
-This means that most changes to the line chart are visual. The changes I made are partially my personal preference, other visual changes are to give a better idea of which years were warmer and which were colder.
+This means that most changes to the line chart are visual. The changes I made are partially my personal preference, other visual changes were made to make the graph more visually attractive.
 
+There are many things I tried to do, but simply couldn't. If I knew completely how to work with d3, you would've been looking at an interactive graph that could show you information between different year ranges. 
+
+## Features
+
+* [d3.timeParse](https://github.com/d3/d3-time-format#timeParse)
+* [d3.select](https://github.com/d3/d3-selection#select)
+* [d3.scaleTime()](https://github.com/d3/d3-scale#scaleTime)
+* [d3.scaleLinear()](https://github.com/d3/d3-scale#scaleLinear)
+* [d3.line](https://github.com/d3/d3-shape#line)
+* [d3.csv](https://github.com/d3/d3-request/blob/master/README.md#csv)
+* [d3.extent](https://github.com/d3/d3-array#extent)
+* [d3.axisBottom()](https://github.com/d3/d3-axis#axisBottom) and [d3.axisLeft()](https://github.com/d3/d3-axis#axisLeft)
+
+## License
+Released under the GNU General Public License, version 3. (from [original](https://bl.ocks.org/mbostock/3883245))
